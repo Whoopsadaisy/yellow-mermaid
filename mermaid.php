@@ -25,7 +25,7 @@ class YellowMermaid {
             $output.="})\n";
             $output.="if (\$mermaid) {\n";
             $output.="  js = document.createElement('script');\n";
-		    $output.="  js.src =\"{$extensionLocation}mermaid.min.js\";\n";
+            $output.="  js.src =\"{$extensionLocation}mermaid.min.js\";\n";
             $output.="  js.text=\"mermaid.initialize({'theme': 'default', 'securityLevel': 'strict', 'htmlLabels': true, 'fontFamily': ''});\";\n";
             $output.="  document.head.appendChild(js);\n";
             $output.="  js = document.createElement('link');\n";
